@@ -26,7 +26,7 @@ app.use("/chart", chartRoutes);
 
 // Mongoose Connection
 const port = process.env.port || 9000;
-mongoose.connect(process.env.url, {
+mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(()=>{

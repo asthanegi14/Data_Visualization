@@ -14,10 +14,11 @@ function App() {
   // const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
 
   const [chartData, setChartData] = useState([]);
+  const backend_Url = process.env.REACT_APP_backend_Url || "http://localhost:8000";
 
   useEffect(() => {
     // Fetch data from your backend API
-    axios.get("http://localhost:5001/chart")
+    axios.get(`${backend_Url}/chart`)
       .then(response => {
         setChartData(response.data);
         console.log(response.data);
