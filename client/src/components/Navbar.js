@@ -3,7 +3,7 @@ import {
   Menu as MenuIcon,
   Search,
 } from "@mui/icons-material";
-import FlexBetween from "components/FlexBetween"; // Make sure to provide the correct path
+import FlexBetween from "components/FlexBetween"; 
 import {
   AppBar,
   IconButton,

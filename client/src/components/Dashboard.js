@@ -10,8 +10,8 @@ const Dashboard = ({ chartData }) => {
   };
 
   return (
-    <div style={{ margin: '30px' }}>
-      <h1>Charts</h1>
+    <div style={{ margin: '10px' }}>
+      {/* <h1>Charts</h1> */}
       <p>Select options from Chart.js and D3.js</p>
       <div style={{ marginBottom: '20px' }}>
         <button

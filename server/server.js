@@ -6,8 +6,8 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import helmet from 'helmet';
 import chartRoutes from "./routes/chart.js";
-import User from "./models/User.js";
-import { insertIt } from "./toInsert.js";
+// import User from "./models/User.js";
+// import { insertIt } from "./toInsert.js";
 
 
 dotenv.config();
